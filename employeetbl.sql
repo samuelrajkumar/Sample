@@ -9,3 +9,9 @@ create or replace TABLE GIT_DEMO.PUBLIC.EMPLOYEE (
 	SALARY NUMBER(38,0),
 	EXPERIENCE NUMBER(38,0)
 ) ;
+
+create or replace file format my_csv_format
+  type = csv
+  record_delimiter = '\n'
+  field_delimiter = ','
+  skip_header = 1;
