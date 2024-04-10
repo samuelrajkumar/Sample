@@ -1,5 +1,0 @@
-CREATE TABLE IF NOT EXISTS simple_table (
-    id INT AUTOINCREMENT,
-    value VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
-);
