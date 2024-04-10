@@ -2,7 +2,7 @@ from snowflake.snowpark import Session
 
 
 def return_employeetbl(session):
-    df = session.table("employeetbl")
+    df = session.table("employee")
     return df
 
 
