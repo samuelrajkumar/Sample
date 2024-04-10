@@ -1,3 +1,3 @@
-EXECUTE IMMEDIATE FROM './simple_table.sql';
-EXECUTE IMMEDIATE FROM './simple_procedure.sql';
+EXECUTE IMMEDIATE FROM './employeetbl.sql';
+EXECUTE IMMEDIATE FROM './populatedata.sql';
 EXECUTE IMMEDIATE FROM './simple_task.sql';
