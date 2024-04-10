@@ -1,5 +1,8 @@
-CREATE TASK IF NOT EXISTS simple_task
+  CREATE  OR REPLACE TASK simple_task
     WAREHOUSE = 'compute_wh'
-    SCHEDULE = 'USING CRON 0 * * * * UTC'
+    SCHEDULE = '11000 MINUTE'
 AS
     CALL populatedata();
+
+
+
