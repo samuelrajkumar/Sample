@@ -1,7 +1,7 @@
 -- always_calculate_discount.sql
 -- Description: Ensure the calculate_discount UDF always exists
 
-CREATE OR REPLACE FUNCTION git_demo.demo.calculate_discount(price DECIMAL, discount_percent DECIMAL)
+CREATE OR REPLACE FUNCTION git_demo.public.calculate_discount(price DECIMAL, discount_percent DECIMAL)
 RETURNS DECIMAL
 LANGUAGE JAVASCRIPT
 EXECUTE AS CALLER
